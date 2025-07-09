@@ -4,6 +4,8 @@ import Cart from "./pages/Cart";
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
 import "./css/App.css";
+import Walls from "./pages/Walls";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -17,6 +19,7 @@ function App() {
           <Route path="/favourites" element={<Favourites />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/walls" element={<Walls />} />
         </Routes>
       </Router>
     </>
