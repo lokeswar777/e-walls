@@ -7,6 +7,7 @@ import "./css/App.css";
 import Walls from "./pages/Walls";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import All from "./pages/All";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/walls" element={<Walls />} />
+          <Route path="/all" element={<All />} />
+          
         </Routes>
       </Router>
     </>

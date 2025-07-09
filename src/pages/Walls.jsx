@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Wall from '../components/Wall';
 import '../css/Walls.css';
 
-const PEXELS_API_KEY = 'tnpIXA0aLTQ2gFTCSpir2NksY9W5gU6NNYULN2R7nPObF18JEooaAuAb'; // 🔐 Replace with your actual key
+const PEXELS_API_KEY = ''; // 🔐 Replace with your actual key
 
 function Walls() {
   const [wallpapers, setWallpapers] = useState([]);
