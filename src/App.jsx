@@ -13,7 +13,7 @@ import All from "./pages/All";
 function App() {
   return (
     <>
-      <Router>
+      <Router className="app-container">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
