@@ -1,3 +1,5 @@
 .app-container {
   background-image: url('/walls/homebg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }

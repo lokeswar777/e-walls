@@ -13,7 +13,8 @@ import All from "./pages/All";
 function App() {
   return (
     <>
-      <Router className="app-container">
+    <div className="app-container">
+      <Router >
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,6 +26,7 @@ function App() {
           
         </Routes>
       </Router>
+      </div>
     </>
   );
 }
