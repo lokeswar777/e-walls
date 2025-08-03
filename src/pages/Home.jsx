@@ -4,9 +4,9 @@ import Card from '../components/Card';
 
 function Home() {
   const featuredWallpapers = [
-    { imageSrc: "/walls/homebg.jpg", title: "Elegant Nature", description: "A tranquil blend of color and calm." },
-    { imageSrc: "/walls/placeholder1.jpg", title: "Modern Vibes", description: "Minimalist geometry and cool tones." },
-    { imageSrc: "/walls/placeholder2.jpg", title: "Retro Feel", description: "A blast from the design past." },
+    { imageSrc: "/walls/homebg.jpg", title: "Abstract", description: "A tranquil blend of color and calm." },
+    { imageSrc: "/walls/Nature/blueflowers.png", title: "Nature", description: "Minimalist geometry and cool tones." },
+    { imageSrc: "/walls/Modern/manycomputers.png", title: "Modern Life", description: "A blast from the design past." },
     { imageSrc: "/walls/placeholder3.jpg", title: "Digital Dreams", description: "High-res for high hopes." },
     { imageSrc: "/walls/placeholder4.jpg", title: "Oceanic Glow", description: "Ride the waves of aesthetic." },
     { imageSrc: "/walls/placeholder5.jpg", title: "Urban Jungle", description: "Where nature meets city lights." },
